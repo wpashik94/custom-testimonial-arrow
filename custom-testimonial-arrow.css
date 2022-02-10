@@ -1,0 +1,41 @@
+/*-----------testimonial arrow---------*/
+.slick-next::before {
+    content: '\f105' !important;
+}
+.slick-next::before, 
+.slick-prev::before {
+    font-family: "FontAwesome" !important;
+    font-size: 20px;
+    line-height: 1;
+    opacity: 1 !important;
+    color: #fff;
+    padding: 15px;
+	border-radius:4px;
+}
+.slick-next:hover::before, 
+.slick-prev:hover::before{
+	background-color:#F2184F !important;
+} 
+.slick-next {
+    right: 15px !important;
+}
+.slick-prev::before {
+    content: '\f104' !important;
+}
+.slick-prev {
+    left: -5px !important;
+    z-index: 1;
+}
+
+#ypbd-testimonial-code .slick-next::before, 
+#ypbd-testimonial-code .slick-prev::before {
+    font-family: "FontAwesome" !important;
+    font-size: 20px;
+    line-height: 1;
+    opacity: 1 !important;
+    color: #fff;
+    padding: 15px;
+	border-radius:4px;
+	background-color:#F2184F !important;
+}
+
